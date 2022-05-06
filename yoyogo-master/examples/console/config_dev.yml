@@ -1,6 +1,0 @@
-yoyogo:
-  application:
-    name: console_demo
-    metadata: "dev"
-    server:
-      type: "console"
