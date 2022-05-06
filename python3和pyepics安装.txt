@@ -1,0 +1,16 @@
+sudo yum install -y libffi-devel
+sudo yum install wget openssl openssl-devel(pip3升级所需)
+mkdir /usr/local/python3
+wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+tar -xvf Python-3.7.0.tgz
+./configure --prefix=/usr/local/python3 --with-openssl=/usr/include/openssl
+./configure --enable-optimizations
+make
+make install
+
+ln -s /usr/local/bin/python3 /usr/bin
+ln -s /usr/local/bin/pip3 /usr/bin
+pip3 install --upgrade pip
+
+pip3 install pyepics
+
