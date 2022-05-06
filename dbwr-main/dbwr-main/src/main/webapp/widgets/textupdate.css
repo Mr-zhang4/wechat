@@ -1,0 +1,10 @@
+.TextField
+{
+	overflow: hidden;
+}
+
+.TextField span
+{
+	display: inline-block;
+	vertical-align: middle;
+}

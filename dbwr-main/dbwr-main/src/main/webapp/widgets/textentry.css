@@ -1,0 +1,15 @@
+
+input.TextField
+{
+    border: none;
+    
+    cursor: pointer;
+}
+
+textarea.TextField
+{
+    border: none;
+    resize: none;
+
+    cursor: pointer;
+}
