@@ -10,7 +10,7 @@ yoyogo:
 # alert通过 tag识别节点值
 alert:
   test:    # grafana alert 中的 tag
-    webhook_url: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=f53523b2-fb9c-4ec8-a1c3-55ec4c2d2f94
+    webhook_url: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=
     link_url: http://localhost:3000/d/lh8kPOQnk/test?orgId=1
   znbk:
     webhook_url:
